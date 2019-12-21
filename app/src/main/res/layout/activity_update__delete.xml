@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Update_Delete">
+
+
+    <EditText
+        android:id="@+id/etemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter employee No"
+        android:layout_marginTop="20sp"
+        android:inputType="number"/>
+
+    <Button
+        android:id="@+id/btnsea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_marginTop="30sp"/>
+
+
+    <EditText
+        android:id="@+id/etemplno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee No"
+        android:layout_marginTop="40sp"/>
+
+    <EditText
+        android:id="@+id/etempsalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee No"
+        android:layout_marginTop="40sp"/>
+
+    <EditText
+        android:id="@+id/etempno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Salary"
+        android:layout_marginTop="40sp"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btnupdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:layout_marginTop="40sp"/>
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_marginTop="30sp"/>
+
+
+
+</LinearLayout>
