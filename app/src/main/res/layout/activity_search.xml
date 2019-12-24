@@ -9,7 +9,7 @@
 
 
     <EditText
-        android:id="@+id/etemployeeno"
+        android:id="@+id/etEmpID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Enter employee No"
@@ -21,6 +21,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Search"
-        android:layout_marginTop="20sp"/>
+        android:layout_marginTop="20sp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tvData"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        />
 
 </LinearLayout>

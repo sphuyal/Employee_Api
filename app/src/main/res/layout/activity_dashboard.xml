@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="20dp"
     tools:context=".Dashboard">
 
 
@@ -13,7 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="SHOW ALL EMPLOYEE"
-        android:layout_marginTop="50sp"/>
+        android:layout_marginTop="50sp"
+        android:textSize="20sp"/>
 
     <Button
         android:id="@+id/btnregisteremployee"
@@ -21,6 +23,7 @@
         android:layout_height="wrap_content"
         android:text="REGISTER EMPLOYEE"
         android:layout_marginTop="50sp"
+        android:textSize="20sp"
         />
 
     <Button
@@ -29,6 +32,7 @@
         android:layout_height="wrap_content"
         android:text="SEARCH EMPLOYEE"
         android:layout_marginTop="50sp"
+        android:textSize="20sp"
         />
 
     <Button
@@ -37,9 +41,7 @@
         android:layout_height="wrap_content"
         android:text="UPDATE/DELETEEMPLOYEE"
         android:layout_marginTop="50sp"
+        android:textSize="20sp"
         />
-
-
-
 
 </LinearLayout>

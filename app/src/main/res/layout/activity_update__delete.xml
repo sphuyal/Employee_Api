@@ -5,61 +5,67 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="20dp"
     tools:context=".Update_Delete">
-
 
     <EditText
         android:id="@+id/etemp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Enter employee No"
-        android:layout_marginTop="20sp"
-        android:inputType="number"/>
+        android:hint="Enter Employee No"
+        android:layout_marginTop="30sp"
+        android:inputType="number"
+        android:textSize="20sp"/>
 
     <Button
         android:id="@+id/btnsea"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Search"
-        android:layout_marginTop="30sp"/>
+        android:layout_marginTop="30sp"
+        android:textSize="20sp"/>
 
 
     <EditText
-        android:id="@+id/etemplno"
+        android:id="@+id/etempname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Employee No"
-        android:layout_marginTop="40sp"/>
+        android:hint="Employee Name"
+        android:layout_marginTop="30sp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/etempage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Employee Age"
+        android:layout_marginTop="30sp"
+        android:inputType="numberDecimal"
+        android:textSize="20sp"/>
 
     <EditText
         android:id="@+id/etempsalary"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Employee No"
-        android:layout_marginTop="40sp"/>
-
-    <EditText
-        android:id="@+id/etempno"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:hint="Employee Salary"
-        android:layout_marginTop="40sp"
-        android:inputType="numberDecimal"/>
+        android:layout_marginTop="30sp"
+        android:inputType="numberDecimal"
+        android:textSize="20sp"/>
+
 
     <Button
         android:id="@+id/btnupdate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Update"
-        android:layout_marginTop="40sp"/>
+        android:layout_marginTop="40sp"
+        android:textSize="20sp"/>
 
     <Button
         android:id="@+id/btndelete"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Delete"
-        android:layout_marginTop="30sp"/>
-
-
-
+        android:layout_marginTop="20sp"
+        android:textSize="20sp"/>
 </LinearLayout>

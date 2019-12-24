@@ -22,6 +22,15 @@ public class Dashboard extends AppCompatActivity {
         btnSearchEmployee = findViewById(R.id.btnsearchemployee);
         btnUpdateDelete = findViewById(R.id.btnupdatedeleteemployee);
 
+        btnShowEmployee.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Dashboard.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
 
         btnRegisterEmployee.setOnClickListener(new View.OnClickListener() {
             @Override
